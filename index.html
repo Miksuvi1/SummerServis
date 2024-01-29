@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="et">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" media="screen and (max-width: 500px)" href="mobile.css">
+
+        <!--fas-->
+        <script src="https://kit.fontawesome.com/1601de0f26.js"
+        crossorigin="anonymous"></script>
+       
+        <title>Company Web</title>
+    </head>
+    <body id="home">
+  <div id="page-container">
+    <div id="content-wrap">
+        <!--navbar-->
+        <div class="mobile-container">
+          <div class="topnav">
+          <nav id="navbar">
+              <div class="container">
+                  <h1><a href="index.html"><img class="img" src="https://maikivs23.ikt.khk.ee/Kirjavead/SS1.jpg" alt="Summer Servis"></a></h1>
+                  <div id="myLinks">
+                  <ul>
+                  <li><a class="current" href="index.html">Avaleht</a></li>
+                  <li><a href="services.html">Teenused</a></li>
+                  <li><a href="about.html">Kontakt</a></li>
+                  <li><a href="form.html">Küsi hinnapakkumist</a></li>
+              </ul>
+                  </div>
+              </div>
+          </nav>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i></a>
+          </div>
+          </div>
+
+        <!--Animated logo and description-->
+        <section id="Meist">
+        <div class="box-left">
+          <img src="https://maikivs23.ikt.khk.ee/Kirjavead/SummerServis_animated.svg" alt="Liikuv Logo">
+          </div>
+        </section>
+        <section id="pildid">
+          <div class="box-right">
+            <h3>Oleme tehnohooldusega tegelev ettevõte, kellel on kogemusi aastast 2013</h3>
+          </div>
+        </section>
+
+
+        <!--carousel pictures-->
+      <div id="karussell" class="container">
+        <div class="box-right">
+                <div class="carousel-container">
+                  <div class="images fade">
+                    <img src="https://maikivs23.ikt.khk.ee/Kirjavead/plumbing.jpg" alt="Torud">
+                  </div>
+                  <div class="images fade">
+                    <img src="https://maikivs23.ikt.khk.ee/Kirjavead/blowtorch.jpg" alt="Põleti">
+                  </div>
+                  <div class="images fade">
+                      <img src="https://maikivs23.ikt.khk.ee/Kirjavead/water.jpg" alt="Kraan">
+                  </div>
+          
+                  <!-- Previous and Next Buttons -->
+                  <a class="previous" onclick="plusSlides(-1)">❮</a>
+                  <a class="next" onclick="plusSlides(1)">❯</a>
+              </div>
+             
+             
+              <br>
+          
+              <!-- Navigation Dots--> 
+              <div id="dots">
+              <div style="text-align:center">
+               
+                  <span class="navigation-dot" onclick="currentSlide(1)"></span>
+                  <span class="navigation-dot" onclick="currentSlide(2)"></span>
+                  <span class="navigation-dot" onclick="currentSlide(3)"></span>
+              </div>
+              </div>
+         </div>
+ </div>
+<div class="clear"></div>
+    <footer>
+        <p>Kõik Õigused Kaitstud &copy;2023</p>
+    </footer>
+  </div>
+</div> 
+<script src="slides.js"></script> 
+    </body>
+</html>
